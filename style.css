@@ -22,6 +22,26 @@ header h1 {
 	text-decoration: none;
 	color: darkgray;
 }
+.nav-right {
+	float:right;
+	font-size: 40px;
+	margin-top: 23px;
+	padding-left: 10px;
+}
+.nav-right a {
+	padding: 0 10px;
+	color:black;
+	text-decoration: none;
+}
+.nav-right a.twitter:hover{
+	color:#1da1f2;
+}
+.nav-right a.instagram:hover{
+	color:#003569;
+}
+.nav-right a.snapchat:hover{
+	color:#FFFC00;
+}
 .container {
 	background-image: url("images/tim-gouw-280702.jpg");
 	width: 100%;
@@ -32,20 +52,8 @@ header h1 {
 }
 .content {
 	width: 1000px;
+	color: lightgray;
 	padding: 20px;
 	border-radius: 6px;
 	;
-}
-.content-left, .content-right {
-	width: 50%;
-	display: inline-block;
-}
-.content img, .content iframe {
-	width: 100%;
-}
-.content iframe {
-	height: 300px;
-}
-.content-right {
-	vertical-align: top;
 }
