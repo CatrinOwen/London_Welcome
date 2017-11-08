@@ -23,7 +23,7 @@ header h1 {
 	color: darkgray;
 }
 .container {
-	background-image: url("../images/London-1.jpg");
+	background-image: url("images/London-1.jpg");
 	width: 100%;
 	height: 100%;
 	background-size: cover;
@@ -37,7 +37,7 @@ header h1 {
 	;
 }
 .content-left, .content-right {
-	width: 48%;
+	width: 50%;
 	display: inline-block;
 }
 .content img, .content iframe {
