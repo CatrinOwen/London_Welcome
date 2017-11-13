@@ -55,5 +55,7 @@ header h1 {
 	color: lightgray;
 	padding: 20px;
 	border-radius: 6px;
-	;
+}
+.pictures {
+	padding: 0 100px;
 }
