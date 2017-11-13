@@ -59,3 +59,20 @@ header h1 {
 .pictures {
 	padding: 0 100px;
 }
+.contact {
+	background-image: url("images/london-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+}
+input[type="submit"] {
+      background:#7FDBFF;
+      color: white;
+}
