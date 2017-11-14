@@ -92,6 +92,9 @@ header h1 {
 	text-align: center;
 	color: white;
 }
+.footer-content {
+	padding-left: 20px;
+}
 input {
       border: 0;
       padding: 10px;
