@@ -58,15 +58,33 @@ header h1 {
 }
 .pictures {
 	padding: 0 20px;
-	height: 1000px;
-  	width: 1500px;
 }
-.img_wrap {
+.column {
+	float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.containerDate {
   position: relative;
-  height: 500px;
-  width: 750px;
+  width: 50%;
 }
-.img_description {
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -74,15 +92,23 @@ header h1 {
   right: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  visibility: hidden;
   opacity: 0;
-  transition: opacity .2s, visibility .2s;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.4);
 }
-.img_wrap:hover .img_description {
-  visibility: visible;
+
+.containerDate:hover .overlay {
   opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 .contact {
 	background-image: url("images/london-1.jpg");
