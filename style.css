@@ -88,11 +88,12 @@ header h1 {
 	background-image: url("images/london-1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20px;
+	padding-left: 20px;
 	text-align: center;
-	color: white;
+	color: #7FDBFF;
+	font: calibri;
 }
-.footer-content {
+.contact-content {
 	padding-left: 20px;
 }
 input {
